@@ -1,0 +1,62 @@
+.main-menu .menu {
+    display: flex;
+    margin-top: 20px;
+    align-content: center;
+}
+h1 {
+    text-align: center;
+    margin: 30px 0;
+}
+.main-menu .menu li {
+    list-style-type: square;
+}
+.main-menu .menu li:not(:last-child) {
+    margin-right: 30px;
+}
+.main-menu .menu li a {
+    font-size: 20px;
+    color: darkgreen;
+    text-decoration: unset;
+}
+#main .recipes-list {
+    display: flex;
+    align-content: center;
+}
+#main .recipes-list li {
+    border: 1px solid #eee;
+    list-style-type: none;
+    text-align: center;
+    transition: .3s;
+}
+#main .recipes-list li .img-block {
+    padding: 0 20px;
+}
+#main .recipes-list li img {
+    margin: 20px 0;
+    max-width: 100%;
+    height: auto;
+}
+#main .recipes-list li a {
+    display: block;
+    color: darkorange;
+    text-decoration: none;
+}
+#main .recipes-list li .title {
+    margin-bottom: 20px;
+}
+#main .recipes-list li:not(:last-child) {
+    margin-right: 15px;
+}
+#main .recipes-list li:hover {
+    box-shadow: 2px 2px 30px -16px;
+}
+#main .recipes-list li:hover a {
+    color: green;
+}
+.single_article .article-img {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.single_article ol li:not(:last-child) {
+    margin-bottom: 15px;
+}
